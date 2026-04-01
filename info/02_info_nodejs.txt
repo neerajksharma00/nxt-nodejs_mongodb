@@ -1,0 +1,87 @@
+mongodb://127.0.0.1:27017/mvc_project_db
+
+Project Structure (MVC)
+-----------------------
+node-mongo-mvc/
+│
+├── config/
+│   └── db.js
+│
+├── models/
+│   └── userModel.js
+│
+├── controllers/
+│   └── userController.js
+│
+├── routes/
+│   └── userRoutes.js
+│
+├── views/
+│   └── users.ejs
+│
+├── app.js
+├── package.json
+
+
+node-mongo-mvc/
+│
+├── public/
+│   └── index.html
+│
+├── sys_1_config/
+├── sys_2_models/
+├── sys_3_controllers/
+├── sys_4_routes/
+├── sys_5_views/
+├── app.js
+
+COMMAND : cd C:\Users\NEERAJ\eclipse-workspace\nxt-nodejs_mongodb
+COMMAND : C:\Users\NEERAJ\eclipse-workspace\nxt-nodejs_mongodb>npm init -y
+COMMAND : C:\Users\NEERAJ\eclipse-workspace\nxt-nodejs_mongodb>npm install express mongoose ejs
+COMMAND : C:\Users\NEERAJ\eclipse-workspace\nxt-nodejs_mongodb>npm install --save-dev nodemon
+COMMAND : C:\Users\NEERAJ\eclipse-workspace\nxt-nodejs_mongodb>node app.js
+	C:\Users\NEERAJ\eclipse-workspace\nxt-nodejs_mongodb>node app.js
+	Server running on http://localhost:3000
+	MongoDB Connected Successfully
+
+	http://localhost:3000
+	http://localhost:3000/users
+		Users List
+		Name: Neeraj
+		Email: neeraj@gmail.com
+
+		Name: Gaurav
+		Email: gaurav@gmail.com
+
+		Name: Shweta
+		Email: shweta@gmail.com
+
+		Name: Piyush
+		Email: piyush@gmail.com
+
+		Name: Pallavi
+		Email: pallavi@gmail.com
+
+		Name: Lokesh
+		Email: lokesh@gmail.com
+
+
+
+
+	http://localhost:3000/users/name/Neeraj
+		Users List
+		Name: Neeraj
+		Email: neeraj@gmail.com
+
+	http://localhost:3000/users/search?names=Neeraj,Gaurav
+		Users List
+		Name: Neeraj
+		Email: neeraj@gmail.com
+
+		Name: Gaurav
+		Email: gaurav@gmail.com
+
+
+
+
+

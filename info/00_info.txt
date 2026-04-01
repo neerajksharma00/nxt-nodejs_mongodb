@@ -1,0 +1,19 @@
+[2026-mar-30][https://chatgpt.com/c/69ca00e6-4c74-8320-83a6-959066947be4]
+
+MONGO_DB URL	:	https://www.mongodb.com/try/download/community
+			version		:	8.2.6
+			platform	:	Windows 64
+			package		:	msi
+			https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.2.6-signed.msi
+
+
+MONGO_SHELL_URL	:	https://www.mongodb.com/try/download/shell
+			version		:	2.8.2
+			platform	:	Windows x64
+			package		:	msi
+			https://downloads.mongodb.com/compass/mongosh-2.8.2-x64.msi
+
+			#https://www.mongodb.com/docs/manual/administration/install-community/?operating-system=windows&windows-installation-method=msiexec
+			#Operating System	:	Windows
+			#Installation Method	:	msiexec.exe
+			

@@ -1,0 +1,19 @@
+SERVICE_NAME		:	MongoDB
+Data Directory		:	C:\Program Files\MongoDB\Server\8.2\data\
+Log Directory		:	C:\Program Files\MongoDB\Server\8.2\log\
+
+
+COMMAND	: mongod --version
+db version v8.2.6
+Build Info: {
+    "version": "8.2.6",
+    "gitVersion": "5d25c835745d06f712320b6cdae9d50b7b43663e",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "environment": {
+        "distmod": "windows"
+    }
+}
+
+
+COMMAND : net start MongoDB

@@ -1,0 +1,26 @@
+
+COMMAND : use mvc_project_db
+--It will switch or create the database
+
+COMMAND : db.users.insertOne({name:"Neeraj", email:"neeraj@gmail.com"})
+--It will create the table users
+
+COMMAND : db.users.find()
+--It will search the records in the table 'users'
+
+COMMAND : db.users.drop()
+--It will drop the table 'users'
+
+COMMAND : show collections
+--It will show all tables
+
+
+COMMAND : db.tbl_users.insertOne({name:"Neeraj", email:"neeraj@gmail.com"})
+COMMAND : db.tbl_users.insertOne({name:"Gaurav", email:"gaurav@gmail.com"})
+COMMAND : db.tbl_users.insertOne({name:"Shweta", email:"shweta@gmail.com"})
+COMMAND : db.tbl_users.insertOne({name:"Piyush", email:"piyush@gmail.com"})
+COMMAND : db.tbl_users.insertOne({name:"Pallavi", email:"pallavi@gmail.com"})
+COMMAND : db.tbl_users.insertOne({name:"Lokesh", email:"lokesh@gmail.com"})
+COMMAND : db.tbl_users.find()
+COMMAND : db.tbl_users.find({ name: "Neeraj" })
+COMMAND : db.tbl_users.find({ name: { $in: ["Neeraj", "Shweta"] } })

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Node Mongo MVC Home</title>
+</head>
+<body>
+
+    <h1>Users Dashboard</h1>
+
+    <hr>
+
+    <h2>1. View All Users</h2>
+    <button onclick="viewAllUsers()">View All</button>
+
+    <hr>
+
+    <h2>2. Search Single User</h2>
+    <input type="text" id="singleName" placeholder="Enter name">
+    <button onclick="searchSingle()">Search</button>
+
+    <hr>
+
+    <h2>3. Search Multiple Users</h2>
+    <input type="text" id="multiNames" placeholder="Neeraj,Gaurav">
+    <button onclick="searchMultiple()">Search Multiple</button>
+
+    <script>
+        function viewAllUsers() {
+            window.location.href = "/users";
+        }
+
+        function searchSingle() {
+            const name = document.getElementById("singleName").value;
+            window.location.href = "/users/name/" + name;
+        }
+
+        function searchMultiple() {
+            const names = document.getElementById("multiNames").value;
+            window.location.href = "/users/search?names=" + names;
+        }
+    </script>
+
+</body>
+</html>

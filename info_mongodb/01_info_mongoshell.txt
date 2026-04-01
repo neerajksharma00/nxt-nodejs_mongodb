@@ -1,0 +1,54 @@
+
+
+MONGO_SHELL_URL	:	https://www.mongodb.com/try/download/shell
+			version		:	2.8.2
+			platform	:	Windows x64
+			package		:	msi
+			https://downloads.mongodb.com/compass/mongosh-2.8.2-x64.msi
+
+Installation Path	C:\Users\NEERAJ\AppData\Local\Programs\mongosh\
+
+COMMAND	:	net start MongoDB
+COMMAND	:	mongosh
+
+C:\Windows\system32>mongosh
+Current Mongosh Log ID: 69ca1527726c945d393682d0
+Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2
+Using MongoDB:          8.2.6
+Using Mongosh:          2.8.2
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+------
+   The server generated these startup warnings when booting
+   2026-03-30T10:40:04.126+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+test>
+
+
+
+COMMAND : mkdir C:\db_mongodb
+COMMAND : mongod --dbpath C:\db_mongodb
+COMMAND : net start MongoDB
+COMMAND	: mongosh
+
+
+	C:\Users\NEERAJ>mongosh
+	Current Mongosh Log ID: 69ca1d7ef7dc8295813682d0
+	Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2
+	Using MongoDB:          8.2.6
+	Using Mongosh:          2.8.2
+
+	For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+	------
+	   The server generated these startup warnings when booting
+	   2026-03-30T10:40:04.126+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+	------
+
+	test>
